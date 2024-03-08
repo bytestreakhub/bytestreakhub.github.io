@@ -1,0 +1,271 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 0; /* Add padding to top and bottom */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center-align the list items */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Add some space between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px; /* Add padding to left and right */
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+
+.welcome-section {
+  background-image: url('images/welcover.jpg'); /* Replace 'welcome_bg.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text */
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text */
+  
+}
+
+
+/*----------------------------------------------------------------  ------------------------------------  ---------*/
+
+
+
+.about-section {
+  background-color: #f4f4f4; /* Adjust background color as needed */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.work-section {
+  background-color: #ddd; /* Adjust background color as needed */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.work-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.work-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.work-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.work-item {
+  width: 300px;
+  margin: 20px;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.work-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.work-item p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+.plan-section {
+  background-color: #ddd; /* Adjust background color as needed */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.plan-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.plan {
+  flex: 1;
+  padding: 20px;
+  margin: 0 20px;
+  background-color: #fff; /* Adjust background color as needed */
+  border-radius: 5px;
+}
+
+.plan h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.plan ul li {
+  margin-bottom: 5px;
+}
+
+.plan button {
+  background-color: #007bff; /* Adjust button color as needed */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+  background-color: #0056b3; /* Adjust button hover color as needed */
+}
+
+
+
+.footer {
+  background-color: #333; /* Adjust background color as needed */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
